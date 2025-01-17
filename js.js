@@ -1,0 +1,52 @@
+$(document).ready(function(){
+$("#a2").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a1").css({"color":"black"});
+    $("#a3").css({"color":"black"});
+    $("#a4").css({"color":"black"});
+    $("#a5").css({"color":"black"});
+    $("#a6").css({"color":"black"});
+});
+$("#a1").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a2").css({"color":"black"});
+    $("#a3").css({"color":"black"});
+    $("#a4").css({"color":"black"});
+    $("#a5").css({"color":"black"});
+    $("#a6").css({"color":"black"});
+});
+$("#a3").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a1").css({"color":"black"});
+    $("#a2").css({"color":"black"});
+    $("#a4").css({"color":"black"});
+    $("#a5").css({"color":"black"});
+    $("#a6").css({"color":"black"});
+});
+$("#a4").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a2").css({"color":"black"});
+    $("#a3").css({"color":"black"});
+    $("#a1").css({"color":"black"});
+    $("#a5").css({"color":"black"});
+    $("#a6").css({"color":"black"});
+});
+$("#a5").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a2").css({"color":"black"});
+    $("#a3").css({"color":"black"});
+    $("#a4").css({"color":"black"});
+    $("#a1").css({"color":"black"});
+    $("#a6").css({"color":"black"});
+});
+$("#a6").click(function(){
+    $(this).css({"color":"blue"});
+    $("#a2").css({"color":"black"});
+    $("#a3").css({"color":"black"});
+    $("#a4").css({"color":"black"});
+    $("#a5").css({"color":"black"});
+    $("#a1").css({"color":"black"});
+});
+
+
+});
